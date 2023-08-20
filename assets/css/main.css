@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
-/*
-	Lens by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -108,7 +104,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background-color: #101010;
+		background-color: #000000;
 		overflow: hidden;
 	}
 
@@ -159,7 +155,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #00D3B7;
+			color: #f5d329;
 		}
 
 	strong, b {
@@ -304,8 +300,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #00D3B7;
-			color: #00D3B7;
+			border-color: #f5d329;
+			color: #f5d329;
 		}
 
 			input[type="submit"]:hover:active,
@@ -976,7 +972,7 @@ input, select, textarea {
 		#thumbnails article {
 			position: relative;
 			width: 50%;
-			background: #101010;
+			background: #000000;
 			outline: 0;
 		}
 
@@ -1188,8 +1184,8 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			opacity: 1;
 			z-index: 1;
+
 		}
 
 			#viewer .slide .caption {
@@ -1221,7 +1217,7 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				background-repeat: no-repeat;
-				background-size: cover;
+				background-size: contain;
 				opacity: 0;
 			}
 
